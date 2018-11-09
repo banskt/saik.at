@@ -1,0 +1,7 @@
+#!/bin/bash
+
+REQ="archetypes/  dev/  i18n/  layouts/  static/  theme.toml"
+
+for d in $REQ; do
+    rsync -av --update --delete themes/cocoa/$d themes/cocoa-mod/$d
+done

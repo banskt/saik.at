@@ -1,0 +1,49 @@
+/* override css styles of the main theme here */
+
+/*  List numbers in circles. 
+ *  Resources: https://stackoverflow.com/questions/4861224/how-to-use-css-to-surround-a-number-with-a-circle
+ *  https://stackoverflow.com/questions/5732836/html-css-numbered-list-with-numbers-inside-of-circles
+ *  https://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/
+ */
+
+section.main .content .markdown ol {
+    counter-reset:li; /* Initiate a counter */
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+}
+
+section.main .content .markdown ol li{
+    position: relative;
+    list-style: none;
+    list-style-type: none;
+    margin: 0 0 1em 2em;
+    padding:0.5em;
+}
+
+section.main .content .markdown ol li:before{
+    content:counter(li);
+    counter-increment:li;
+
+    position:absolute;
+    top: 0.2em;
+    left:-2em;
+    padding:0.2em 0;
+    width:2em;
+    border-radius: 50%;
+    border: 1px solid #666;
+
+    text-align:center;
+}
+
+
+/* Float the profile image on the left
+ */
+
+section.main .content .markdown img.profile {
+    float:left;
+    margin: 0 1em 1em 0;
+}
+
+p.clear {
+    clear: both;
+}

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./synctheme
+rm -rf public
+hugo
+rsync -av --update --delete public/ vultr:saik.at/public/

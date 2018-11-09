@@ -1,0 +1,78 @@
+baseURL             = "https://saik.at/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishdir          = "public"
+theme               = "cocoa-mod"
+author              = "Saikat Banerjee"
+title               = "Saikat banerjee, postdoctoral scholar working on human genetics, systems medicine and machine learning "
+pygmentsuseclasses  = true
+disqusshortname     = "sbanerjee" # Comment out to disable Disqus.
+pluralizelisttitles = false
+googleAnalytics     = "UA-123-45"
+newContentEditor    = "vim"
+
+[permalinks]
+blog  = "blog/:slug/"
+
+[[menu.main]]
+name                   = "Work"
+weight                 = -110
+identifier             = "work"
+url                    = "/work/"
+
+[[menu.main]]
+name                   = "Think"
+weight                 = -100
+identifier             = "think"
+url                    = "/think/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -120
+identifier             = "about"
+url                    = "/about/"
+
+[params]
+# include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
+latestpostscount       = 3                             # how many posts to display on the home page
+# i18n_flags             = false                         # whether to display small country flags for available translations
+author                 = "Saikat Banerjee"             # appears as the site title
+selfintro              = ""
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "Personal website"
+email                  = "hellosbanerj"
+extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
+faviconfile            = "img/16x16_sb_icon_color_transparent_icon.ico"
+github                 = "//github.com/banskt"
+# instagram              = "//instagram.com/you"
+px500                  = "//500px.com/banskt"
+lang                   = "en"
+linkedin               = "//linkedin.com/in/banskt"
+noshowreadtime         = true                          # if true, don't show "<x> minutes read" in posts
+twitter                = "//twitter.com/banskt"
+# mastodon               = "//example.com/@you"
+# telegram               = "//t.me/you"
+
+highlightjs            = true
+# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+# highlightjsStyle     = "darcula"
+
+piwik                  = false                         # If true, Piwik integration is enabled
+# piwik_url            = "//www.example.com/piwik/"    # URL to your Piwik installation. Must End with a slash
+# piwik_id             = 2                             # Id of your site in Piwik
+
+gitalk                 = false
+# if gitalk is true, the following params should be set. These parameters could be retrieved from github OAuth
+gitalk_clientID        = "your client id"
+gitalk_clientSecret    = "your client secret"
+gitalk_repo            = "your repo url"
+gitalk_owner           = "the owner of this repo"
+gitalk_admin           = ['a', 'list', 'of', 'administrator']
+
+# avatar                 = "img/profile-4x.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+gravatar               = "f6f2ac85a50f652aaa7dd5beb4fa3966" # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
