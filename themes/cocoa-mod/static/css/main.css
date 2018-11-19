@@ -5,7 +5,7 @@
   color: #666 !important;
 }
 .accent {
-  color: #428bca !important;
+  color: #c8635a !important;
 }
 @media (min-width: 550px) {
   .small-screens-only {
@@ -544,7 +544,7 @@ section.main {
   }
 }
 a {
-  color: #428bca;
+  color: #c8635a;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -552,7 +552,7 @@ a {
   transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 a:hover {
-  color: #2a6496;
+  color: #a34037;
 }
 img {
   max-width: 100%;
@@ -610,7 +610,7 @@ section.main .content .markdown pre {
 }
 section.main .content .markdown code {
   /* enclosed by single backtick (`) */
-  padding: .15em .5em;
+  padding: 0.15em 0.5em;
   border-radius: 2px;
 }
 section.main .content .markdown pre {
@@ -631,7 +631,7 @@ section.main .content .markdown pre code {
   font-size: 1rem;
 }
 section.main .content .markdown a code {
-  color: #428bca !important;
+  color: #c8635a !important;
 }
 section.main .content .markdown a code:hover {
   text-decoration: underline;
@@ -652,7 +652,7 @@ section.main .content .markdown dt {
   font-weight: bold;
 }
 section.main .content .markdown dd {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 section.main .content .markdown ul {
   margin-bottom: 1.25rem;
@@ -691,10 +691,10 @@ section.main .content .markdown abbr[title] {
   border-bottom: 1px dotted #808080;
 }
 section.main .content .markdown blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0;
   color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  border-left: 0.25rem solid #e5e5e5;
 }
 section.main .content .markdown blockquote p:last-child {
   margin-bottom: 0;
@@ -717,7 +717,7 @@ section.main .content .markdown table {
 }
 section.main .content .markdown td,
 section.main .content .markdown th {
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   border: 1px solid #e5e5e5;
 }
 section.main .content .markdown tbody tr:nth-child(odd) td,
