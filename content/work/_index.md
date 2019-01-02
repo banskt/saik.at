@@ -18,7 +18,7 @@ Quasi-Laplace approximation outperforms state-of-the-art *linear* models wheneve
 when the numbers of case and control patients differ significantly.
 Therefore, novel genetic disease-associated variants could be found by adding controls to existing case-control GWAS 
 and reanalyzing them with our software, B-LORE.  
-[Read more](https://www.biorxiv.org/content/early/2018/06/04/198911)
+[Read more](https://doi.org/10.1371/journal.pgen.1007856)
 
 > **Diffusion in a rough potential.**
 
