@@ -1,6 +1,6 @@
 ---
 title: "The Git revelation"
-date: 2018-10-08T14:13:28+01:00
+date: 2019-10-08T14:13:28+01:00
 draft: false
 ---
 ![This is Git](https://imgs.xkcd.com/comics/git.png)
