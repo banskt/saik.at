@@ -14,7 +14,7 @@ with modifications in CSS and Javascript.
 The posts are written in Markdown.
 
 The primary font face is Open Sans and the monospace font face is Ubuntu Mono.
-The social icons are from the Ionicons font set. 
+The social icons are from the [Ionicons](https://ionicons.com) font set. 
 CSS classes for code syntax highlighting are inserted during compile-time by Hugo using Pygments.
 
 If you find errors, [please let me know](hellosbanerj).

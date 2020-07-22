@@ -1,6 +1,6 @@
 ---
 title: "Github and Overleaf integration"
-date: 2020-07-21T11:42:43+02:00
+date: 2020-04-04T11:42:43+02:00
 draft: false
 ---
 
@@ -59,7 +59,7 @@ git commit -m "Start of overleaf collaboration"
 git push overleaf overleaf:master
 ```
 
-## Daily Workflow
+## Workflow
 The three remotes in the project are:
 
   *  `origin master` (Github `master` branch)
@@ -93,13 +93,13 @@ git push overleaf overleaf:master
 ```
 However, most of the time, I have to do a combination of the two.
 
-> **WARNING**: Merging may accidentally delete files.
+> **Warning**: Merging may accidentally delete files.
 
-## Security Note
+## Security note
 GitHub public repos with public Overleaf project:
 the default log message of merge commit reveals "secret" Overleaf URL, enabling anyone to edit public Overleaf project.
 I prefer private Overleaf project.
 
-## References
+## Other resources
 1. [Git and Overleaf integration by Santiago Casas](https://www.overleaf.com/articles/git-and-overleaf-integration/qmdncpnqwfxx)
 2. [Git and Overleaf integration by Jeff Naecker](https://gist.github.com/jnaecker/da8c1846bc414594783978b66b6e8c83)
