@@ -1,11 +1,25 @@
-name: Deploy on webserver
+name: Autodeploy
 on: [push]
 jobs:
 
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: deploy
+    - name: Git checkout
+      uses: actions/checkout@v2
+
+    - name: rsync git repository to vultr
+      uses: AEnterprise/rsync-deploy@v1.0
+      env:
+        DEPLOY_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        ARGS: "-e -c -r --delete"
+        SERVER_PORT: ${{ secrets.SSH_PORT }}
+        FOLDER: "./"
+        SERVER_IP: ${{ secrets.HOST }}
+        USERNAME: ${{ secrets.USERNAME }}
+        SERVER_DESTINATION: "./saik.at"
+
+    - name: run Hugo
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST }}
