@@ -5,20 +5,34 @@ title = "Saikat - Work"
 heading = "Work"
 +++
 [Publications](https://scholar.google.com/citations?user=Olrxt2IAAAAJ&hl=en&view_op=list_works&sortby=pubdate)  
-[Curriculum Vitae](Saikat_Banerjee_CV.pdf) (pdf)  
+[Curriculum Vitae](Saikat_Banerjee_CV.pdf) (pdf)
+
 ### Softwares
 [B-LORE](https://github.com/soedinglab/b-lore)  
-TEJAAS (under developement)
-### Research highlights
+[Tejaas](https://github.com/soedinglab/tejaas)
+
+### Current research in statistical genetics
+
+> **Discovery of trans-eQTLs**
+
+Genetic variants which regulate distant target genes are called trans-acting expression quantitative trait loci -- in short, trans-eQTLs.
+Many genetic variants are believed to mediate disease risk via the trans-eQTLs.
+Discovering trans-eQTLs and understanding their mechanism is crucial for the future of personalized or precision medicine.
+Since 2018, I have been working on developing new statistical methods, with a focus on discovering trans-eQTLs.  
+[Read more](https://www.biorxiv.org/content/10.1101/2020.05.07.083386v1.full)
+
+
 > **Quasi-Laplace approximation.** 
 
-We found this efficient analytical approximation for Bayesian *multiple logistic* regression with sparse priors,
-and used it for analyzing case-control GWAS with binary phenotypes.
-Quasi-Laplace approximation outperforms state-of-the-art *linear* models whenever nonlinearities become strong, for example, 
-when the numbers of case and control patients differ significantly.
-Therefore, novel genetic disease-associated variants could be found by adding controls to existing case-control GWAS 
-and reanalyzing them with our software, B-LORE.  
+Bayesian regression requires computing the often intractable posterior probability.
+Given any prior and likelihood, the quasi-Laplace approximation implicitly assumes the posterior as a Gaussian 
+whose mode and variance is close to that of the exact posterior.
+If the prior is Gaussian, it reduces to the well-known Laplace approximation.
+Logistic regression with quasi-Laplace approximation, as implemented in B-LORE,
+outperforms existing state-of-the-art models for finemapping case-control GWAS.  
 [Read more](https://doi.org/10.1371/journal.pgen.1007856)
+
+### Previous research in statistical physics
 
 > **Diffusion in a rough potential.**
 
@@ -27,7 +41,7 @@ We found a general expression for the effective diffusion coefficient of a Brown
 This general expression reduces to the [famous equation of Zwanzig](https://doi.org/10.1073/pnas.85.7.2029) in the limit of infinite spatial correlation!  
 [Read more](https://doi.org/10.1063/1.4895905)
 
-> **Orientational order leads to long-range hydrophobicity**
+> **Orientational order leads to long-range hydrophobicity.**
 
 The long range attractive force between two hydrophobic surfaces immersed in water is observed to decrease exponentially with their separation
 -- this distance-dependence of effective force is known as the hydrophobic force law. 
@@ -41,4 +55,4 @@ Aqueous binary mixtures of many amphiphilic solutes such as methanol, dimethyl s
 show dramatic, often exotic, anomalies in thermodynamic and dynamic properties.
 In a series of work during my PhD, we found a percolation transition of the solutes,
 leading to the formation of a spanning cluster of self-aggregates in the system after a critical percolation concentration. 
-Believe it or not, the onset of this percolation occurs at a concentration at which the thermodynamic and dynamic anomalies are found experimentally.
+Surprisingly, the onset of this percolation occurs at a concentration at which the thermodynamic and dynamic anomalies are found experimentally.

@@ -24,9 +24,8 @@ I discuss history and politics. Here are a dozen fun facts about myself:
 6. I love playing [Terra Mystica](https://boardgamegeek.com/boardgame/120677/terra-mystica) and participate in the [global tournament](http://tmtour.org/#/players/banskt).
 7. I consulted the design and development of the iOS app [Isle of Miles](http://isleofmiles.com/).
 8. I like arthouse, cult, classic, experimental and rare movies from all over the world. My favorite film directors are [Satyajit Ray](https://www.theguardian.com/commentisfree/2013/jul/22/satyajit-ray-artifice-honesty-film), [Ashgar Farhadi](https://en.wikipedia.org/wiki/Asghar_Farhadi) and [Michael Haneke](https://en.wikipedia.org/wiki/Michael_Haneke).
-<!-- 6. Nice websites fascinate me: I designed and developed a few of them as a freelancer. -->
 9. My vacation plans usually involve biking or hiking.
-10. Green and maroon are my favorite colors -- they also represent my favorite football team [MohunBagan A.C.](https://en.wikipedia.org/wiki/Mohun_Bagan_A.C.)
+10. Green and maroon are my favorite colors -- they also represent my favorite football team [MohunBagan A.C.](https://en.wikipedia.org/wiki/ATK_Mohun_Bagan_FC)
 11. In Fantasy Premier League, [my team](https://fantasy.premierleague.com/a/entry/760063/history) achieved a global rank of 1854 in 2014-15.
 12. Before I die, I want to see [the Earth from space](https://www.nasa.gov/image-feature/goddard/a-sky-view-of-earth-from-suomi-npp).
 
