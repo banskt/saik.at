@@ -11,5 +11,5 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-        key_path: ${{ secrets.SSH_PRIVATE_KEY_PATH }}
-        script: action_try.sh
+        port: ${{ secrets.SSH_PORT }}
+        script: source deploy_saik_at
