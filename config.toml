@@ -35,6 +35,12 @@ weight                 = -120
 identifier             = "about"
 url                    = "/about/"
 
+[[menu.main]]
+name                   = "Notebooks"
+weight                 = -90
+identifier             = "notebooks"
+url                    = "https://banskt.github.io/"
+
 [params]
 # include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
 latestpostscount       = 3                             # how many posts to display on the home page
