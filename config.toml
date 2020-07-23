@@ -5,7 +5,7 @@ contentdir          = "content"
 languageCode        = "en-US"
 layoutdir           = "layouts"
 publishdir          = "public"
-theme               = "cocoa-mod"
+theme               = "cocoa-refresh"
 author              = "Saikat Banerjee"
 title               = "Saikat banerjee, postdoctoral scholar working on human genetics, systems medicine and machine learning "
 pygmentsuseclasses  = true
@@ -26,8 +26,8 @@ url                    = "/work/"
 [[menu.main]]
 name                   = "Think"
 weight                 = -100
-identifier             = "think"
-url                    = "/think/"
+identifier             = "blog"
+url                    = "/blog/"
 
 [[menu.main]]
 name                   = "About"
@@ -43,6 +43,8 @@ url                    = "https://banskt.github.io/"
 
 [params]
 # include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
+latestpost_heading     = "Recent Thoughts"
+blog_heading           = "Random Thoughts"
 latestpostscount       = 3                             # how many posts to display on the home page
 # i18n_flags             = false                         # whether to display small country flags for available translations
 author                 = "Saikat Banerjee"             # appears as the site title
@@ -51,7 +53,9 @@ cachebuster            = true                          # add the current unix ti
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "Personal website"
-email                  = "hellosbanerj"
+email                  = "serve_email_fromjs"
+email_username         = "banskt"
+email_client           = "gmail.com"
 extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
 faviconfile            = "img/16x16_sb_icon_color_transparent_icon.ico"
 github                 = "//github.com/banskt"
@@ -63,6 +67,8 @@ noshowreadtime         = true                          # if true, don't show "<x
 twitter                = "//twitter.com/banskt"
 # mastodon               = "//example.com/@you"
 # telegram               = "//t.me/you"
+
+external_url_redirect  = true # external URLs will open in separate tabs
 
 highlightjs            = true
 # highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
@@ -82,3 +88,8 @@ gitalk_admin           = ['a', 'list', 'of', 'administrator']
 
 # avatar                 = "img/profile-4x.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
 gravatar               = "f6f2ac85a50f652aaa7dd5beb4fa3966" # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

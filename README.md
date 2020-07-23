@@ -1,7 +1,7 @@
 # [saik.at](https://saik.at) source code
 
 The website is built with [Hugo](https://gohugo.io/) — a static site generator made with Go.
-It uses the [Cocoa](github.com/nishanths/cocoa-hugo-theme) theme,
+It uses the [Cocoa](https://github.com/nishanths/cocoa-hugo-theme) theme,
 with several modifications in CSS and Javascript.
 
 The modifications in the Cocoa theme are as follows:

@@ -1,0 +1,3 @@
+[submodule "themes/cocoa-refresh"]
+	path = themes/cocoa-refresh
+	url = git@github.com:banskt/cocoa-refresh-hugo-theme.git

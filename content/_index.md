@@ -2,7 +2,7 @@
 date = "2018-11-02T04:29:21-07:00"
 draft = false
 title = "Saikat Banerjee"
-heading = "Namaskar!"
+greeting = "Namaskar!"
 +++
 <!---
 A genuine leader is not a searcher for consensus but a molder of consensus.

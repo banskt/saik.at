@@ -29,4 +29,4 @@ I discuss history and politics. Here are a dozen fun facts about myself:
 11. In Fantasy Premier League, [my team](https://fantasy.premierleague.com/a/entry/760063/history) achieved a global rank of 1854 in 2014-15.
 12. Before I die, I want to see [the Earth from space](https://www.nasa.gov/image-feature/goddard/a-sky-view-of-earth-from-suomi-npp).
 
-I think I’m a friendly human, so if you ever want to talk to me don’t hesitate to say hello on [twitter](https://twitter.com/banskt), via [email](hellosbanerj) or in person.
+I think I’m a friendly human, so if you ever want to talk to me don’t hesitate to say hello on [twitter](https://twitter.com/banskt), via [email](serve_email_fromjs) or in person.
