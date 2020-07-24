@@ -19,7 +19,7 @@ Pushing local changes to the server is as simple as:
 ```
 git push origin master
 ```
-For details, [see here](https://saik.at/think/2020-06-17-deploy-static-sites-with-github-actions/).
+For details, [see here](https://saik.at/blog/deploy-static-sites-with-github-actions/).
 
 ### Colophon
 The posts are written in Markdown.
