@@ -7,9 +7,9 @@ jobs:
     steps:
     - name: Git checkout
       uses: actions/checkout@v2
-
-    - name: Update theme
-      run: git submodule update --init --recursive
+      with:
+        token: ${{ secrets.MY_GITHUB_PUBLIC_PAT }}
+        submodules: recursive
 
     - name: rsync git repository to vultr
       uses: AEnterprise/rsync-deploy@v1.0
