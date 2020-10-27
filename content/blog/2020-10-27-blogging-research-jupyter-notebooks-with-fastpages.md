@@ -24,6 +24,18 @@ Here are two example entries:
 ```
 Push the edited file to my Github Pages, and the new project is ready.
 
+## Personal configuration
+I modify the following files in the newly created clone of fastpages to personalize the look and feel.
+```
+_config.yml
+_includes/post_list.html
+_includes/footer.html
+_sass/minima/custom-styles.scss
+images/favicon.ico
+index.html
+```
+To reduce effort, I created them once and I just copy them over to the newly created projects. 
+
 ## Creating new posts
 Daily workflow involves working on new Jupyter Notebooks,
 and pushing them at the end of the day.
