@@ -10,20 +10,24 @@ I found three options to control the RGB colors of Wraith Prism on a Linux platf
 2. [Wraith Master](https://serebit.com/posts/wraith-master-hits-version-1.1/). Open-source Linux-only RGB control application for the Wraith Prism, written in Kotlin.
 3. [cm-rgb](https://github.com/gfduszynski/cm-rgb). RGB control application for the Wraith Prism on Linux, Mac OS and Windows, written in Python and allows showing realtime CPU utilization.
 
-Quiet obviously, I used OpenRGB as it will at least have a single application for all RGB devices (I have plans to upgrade some components). I used the USB connector for the RGB fan, because the RGB header on MSI MAG B550M Mortar motherboard is not yet supported by OpenRGB. Configuring OpenRGB from source requires the following dependencies: 
+I used OpenRGB as it will at least have a single application for all RGB devices if I plan to upgrade some components in the future. I used the USB connector for the RGB fan, because the RGB header on MSI MAG B550M Mortar motherboard is not yet supported by OpenRGB. Configuring OpenRGB from source requires the following dependencies: 
 
 ```
 sudo apt install build-essential libusb-1.0-0-dev libhidapi-dev pkgconf
 ```
 
-Installing OpenRGB also requires [Qt5](https://www.qt.io/) - a framework for cross-platform software development. Installing Qt5 from the Ubuntu package manager is [easy]([Install QT on Ubuntu - Stackoverflow](https://stackoverflow.com/questions/48147356/install-qt-on-ubuntu)) 
-
+Installing OpenRGB also requires [Qt5](https://www.qt.io/) - a framework for cross-platform software development. Installing Qt5 from the Ubuntu package manager is [easy](https://stackoverflow.com/questions/48147356/install-qt-on-ubuntu):
 ```bash
 sudo apt install qt5-default qtcreator
 ```
+However, I often find pleasure in making things complicated, 
+so I compiled Qt5 from source and kept it as a separate module which can be called only when required (see details below).
+This is absolutely not required, it only gave me a sense of keeping things cleaner. 
 
-However, I wanted to build Qt5 from source and have it as a separate module which can be called only when required (see details below). Then, I downloaded OpenRGB from the [gitlab repository](https://gitlab.com/CalcProgrammer1/OpenRGB) and built it using qmake in a different `openrgb-build` directory (I prefer to keep the build separate from the source).
 
+Then, I downloaded OpenRGB from the [gitlab repository](https://gitlab.com/CalcProgrammer1/OpenRGB) 
+and built it using qmake in a different `openrgb-build` directory. 
+I prefer to keep the build separate from the source.
 ```bash
 # clone from git; this should create a directory called 'OpenRGB'
 git clone https://gitlab.com/CalcProgrammer1/OpenRGB.git
@@ -99,5 +103,5 @@ Finally, I created the modulefile for loading Qt5 as and when required.
 
 ## The RGB madness
 
-This is just a rant, ignore if you will. I recently built a computer and it was astonishingly difficult to avoid an RGB explosion. To make matters worse, every manufacturer has their own proprietary applications for controlling these hardware. Most of them are Windows-only and compete for background resources. Life as a Linux user and random RGB lights is not much of a fun. I am truly amazed how much money, time and resources are being wasted by everyone involved in this warped concept of strobing aesthetics, sometimes leading to [rainbow pukes](https://i.imgur.com/gRRH5fQ.jpg). Although I managed to get most of the stuff without the obnoxious RGB elements, there was still the AMD Wraith Prism cooler which I had to deal with. Honestly, I had to spend an enormous amount of time to switch off the RGB and I wish this stupid problem was not there to begin with. Rant over.
+This is a rant, ignore if you will. I recently built a computer and it was astonishingly difficult to avoid an RGB explosion. To make matters worse, every manufacturer has their own proprietary applications for controlling these hardware. Most of them are Windows-only and compete for background resources. Life as a Linux user and random RGB lights is not much of a fun. I am truly amazed how much money, time and resources are being wasted by everyone involved in this warped concept of strobing aesthetics, sometimes leading to [rainbow pukes](https://i.imgur.com/gRRH5fQ.jpg). Although I managed to get most of the stuff without the obnoxious RGB elements, there was still the AMD Wraith Prism cooler which I had to deal with. Honestly, I had to spend quite some of my valuable time to switch off the RGB and I wish this stupid problem was not there to begin with. Rant over.
 
