@@ -11,7 +11,7 @@ title               = "Saikat banerjee, postdoctoral scholar working on human ge
 pygmentsuseclasses  = true
 disqusshortname     = "sbanerjee" # Comment out to disable Disqus.
 pluralizelisttitles = false
-googleAnalytics     = "G-VPC9819WZ4"
+googleAnalytics     = "UA-207921848-2"
 newContentEditor    = "vim"
 
 [permalinks]
