@@ -8,7 +8,7 @@ jobs:
     - name: Git checkout
       uses: actions/checkout@v3
       with:
-        token: ${{ secrets.SAIKAT_WEBSITE_PAT }}
+        token: ${{ secrets.MY_GITHUB_PUBLIC_PAT }}
         submodules: recursive
 
     - name: rsync git repository to vultr
