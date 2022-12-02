@@ -17,4 +17,4 @@ The primary font face is Open Sans and the monospace font face is Ubuntu Mono.
 The social icons are from the [Ionicons](https://ionicons.com) font set. 
 CSS classes for code syntax highlighting are inserted during compile-time by Hugo using Pygments.
 
-If you find errors, [please let me know](hellosbanerj).
+If you find errors, [please let me know](serve_email_fromjs).

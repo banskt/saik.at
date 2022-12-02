@@ -6,11 +6,18 @@ heading = "About Me"
 +++
 <img src="/img/sbanerj_profile_03.jpg" class="profile">
 
-I develop statistical methods for analyzing and understanding biomedical data,
-with an ultimate goal to understand the regulatory mechanism of complex diseases.
+I am fascinated by the unique ability of genetic variations to drive complex diseases. 
+What are the causal chains of events that link genetic changes to phenotypic consequences?
+As a computational genomics scientist, I develop statistical methods, design computational algorithms and 
+implement them in software to integrate and analyze large-scale genomics data,
+with an ultimate goal of understanding the regulatory mechanism of complex diseases.
 
-I am passionate about all things data science and biology. I feel excited when I read about machine learning and parallel computing, physics and chemistry.
-I discuss history and politics. Here are a dozen fun facts about myself:
+I am passionate about all things data science and biology. 
+<!-- I feel excited when -->
+I like to read about machine learning, parallel computing, physics and chemistry.
+I often discuss history and politics with friends and strangers.
+
+Here are a dozen fun facts about myself:
 <!--- I enjoy being perfect -->
 <!--- and I know it can be liberating or exhausting trying to be perfect. -->
 <!--- it can break you if you let it or improve you if you embrace it. -->
