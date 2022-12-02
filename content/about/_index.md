@@ -13,7 +13,6 @@ implement them in software to integrate and analyze large-scale genomics data,
 with an ultimate goal of understanding the regulatory mechanism of complex diseases.
 
 I am passionate about all things data science and biology. 
-<!-- I feel excited when -->
 I like to read about machine learning, parallel computing, physics and chemistry.
 I often discuss history and politics with friends and strangers.
 

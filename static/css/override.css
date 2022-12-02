@@ -40,8 +40,8 @@ section.main .content .markdown ol li:before{
  */
 
 section.main .content .markdown img.profile {
-    float:left;
-    margin: 0 1em 1em 0;
+    float:right;
+    margin: 0 0 1em 1em;
 }
 
 p.clear {
