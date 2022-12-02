@@ -4,7 +4,7 @@ draft = false
 title = "Saikat - About"
 heading = "About Me"
 +++
-<img src="/img/sbanerj_profile_02.jpg" class="profile">
+<img src="/img/sbanerj_profile_03.jpg" class="profile">
 
 I develop statistical methods for analyzing and understanding biomedical data,
 with an ultimate goal to understand the regulatory mechanism of complex diseases.
