@@ -7,8 +7,8 @@ greeting = "Namaskar!"
 <!---
 A genuine leader is not a searcher for consensus but a molder of consensus.
 Martin Luther King Jr. -->
-I am a staff scientist working with [Matthew Stephens](https://stephenslab.uchicago.edu/)
-in the [Department of Human Genetics](https://genes.uchicago.edu/) at the [University of Chicago](https://www.uchicago.edu).
+I am a computational genomics scientist in the [Department of Human Genetics](https://genes.uchicago.edu/) at the [University of Chicago](https://www.uchicago.edu).
+I work in the group of [Matthew Stephens](https://stephenslab.uchicago.edu/) to develop Bayesian machine learning methods for high-dimensional data.
 I [code](https://github.com/banskt), write [equations](https://www.biorxiv.org/content/early/2018/06/04/198911) 
 and solve [problems](https://scholar.google.com/citations?user=Olrxt2IAAAAJ) which interest and/or annoy me, 
 often learning [new skills](/about) along the way.
