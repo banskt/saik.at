@@ -12,7 +12,7 @@ jobs:
         submodules: recursive
 
     - name: rsync git repository to vultr
-      uses: AEnterprise/rsync-deploy@v1.0
+      uses: AEnterprise/rsync-deploy@v1.0.2
       env:
         DEPLOY_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         ARGS: "-e -c -r --delete"
