@@ -4,7 +4,7 @@ draft = false
 title = "Saikat - About"
 heading = "About Me"
 +++
-<img src="/img/sbanerj_profile_03.jpg" class="profile">
+<img src="/img/sbanerj_profile_04.jpg" class="profile">
 
 I am fascinated by the unique ability of genetic variations to drive complex diseases. 
 What are the causal chains of events that link genetic changes to phenotypic consequences?
