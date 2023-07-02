@@ -16,7 +16,8 @@ and solve [problems](https://scholar.google.com/citations?user=Olrxt2IAAAAJ) whi
 often learning [new skills](/about) along the way.
 
 Before joining the NYGC, I worked with [Matthew Stephens](https://stephenslab.uchicago.edu/) 
-in the [Department of Human Genetics](https://genes.uchicago.edu/) at the [University of Chicago](https://www.uchicago.edu).
+in the [Department of Human Genetics](https://genes.uchicago.edu/) 
+and the [Department of Statistics](https://stat.uchicago.edu/) at the [University of Chicago](https://www.uchicago.edu).
 Earlier, I worked at the [Max Planck Institute for Multidisciplinary Sciences](https://www.mpinat.mpg.de/en), G&ouml;ttingen
 with [Johannes S&ouml;ding](https://www.mpibpc.mpg.de/soeding).
 I completed my Ph.D in computational biophysics at the [Indian Institute of Science](https://iisc.ac.in/)
